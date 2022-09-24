@@ -46,11 +46,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonGithub.setOnClickListener {
-            openLink("https://github.com/c3r5b8/Telegram-Monet")
+            openLink("https://github.com/the-dise/Telegram-Monet")
         }
 
         buttonTg.setOnClickListener {
-            openLink("https://t.me/tgmonet")
+            openLink("https://t.me/thedise")
         }
     }
 
@@ -127,6 +127,22 @@ class MainActivity : AppCompatActivity() {
             "n2_100" to ContextCompat.getColor(applicationContext, R.color.system_neutral2_100),
             "n2_10" to ContextCompat.getColor(applicationContext, R.color.system_neutral2_10),
             "n2_50" to ContextCompat.getColor(applicationContext, R.color.system_neutral2_50),
+
+            // Light Error
+            "colorErrorLight" to ContextCompat.getColor(applicationContext, R.color.colorError),
+            "colorOnErrorLight" to ContextCompat.getColor(applicationContext, R.color.colorOnError),
+            "colorErrorContainerLight" to ContextCompat.getColor(applicationContext, R.color.colorErrorContainer),
+            "colorOnErrorContainerLight" to ContextCompat.getColor(applicationContext, R.color.colorOnErrorContainer),
+
+            // DarkError
+            "colorErrorDark" to ContextCompat.getColor(applicationContext, R.color.colorErrorDark),
+            "colorOnErrorDark" to ContextCompat.getColor(applicationContext, R.color.colorOnErrorDark),
+            "colorErrorContainerDark" to ContextCompat.getColor(applicationContext, R.color.colorErrorContainerDark),
+            "colorOnErrorContainerDark" to ContextCompat.getColor(applicationContext, R.color.colorOnErrorContainerDark),
+
+            // Calls color
+            "monetGreen" to ContextCompat.getColor(applicationContext, R.color.colorCallGreen),
+            "monetRed" to ContextCompat.getColor(applicationContext, R.color.colorCallRed),
         )
         var themeText = file.replace("\$", "")
         monetList.forEach {

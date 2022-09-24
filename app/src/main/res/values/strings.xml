@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--App Names -->
-    <string name="app_name" translatable="false">Telegram Monet Theme</string>
-    <string name="app_name_short" translatable="false">TG Monet</string>
+    <string name="app_name" translatable="false">TMG</string>
+    <string name="app_name_short" translatable="false">TMG</string>
     <string name="toolbar_title">Theme</string>
     <!--About Card -->
     <string name="about_card_description">Simple Telegram Monet themes generator.</string>
     <string name="about_card_github">Source Code on GitHub</string>
-    <string name="about_card_title" translatable="false">Telegram Monet Theme | %s</string>
+    <string name="about_card_title" translatable="false">TMG ver.%s</string>
     <string name="about_card_telegram">Our Telegram Channel</string>
     <!--Dark Theme Card -->
     <string name="dark_theme">Dark</string>

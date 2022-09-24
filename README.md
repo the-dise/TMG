@@ -1,26 +1,22 @@
 # Telegram Monet
 
-<p>
+<!-- <p>
     <a href="https://github.com/c3r5b8/Telegram-Monet/stargazers"><img src="https://img.shields.io/github/stars/c3r5b8/Telegram-Monet?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship style=for-the-badge"></a>
     <a href="https://github.com/c3r5b8/Telegram-Monet/issues"><img src="https://img.shields.io/github/issues/c3r5b8/Telegram-Monet?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
     <a href="https://github.com/c3r5b8/Telegram-Monet/contributors"><img src="https://img.shields.io/github/contributors/c3r5b8/Telegram-Monet?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
-</p>
+</p> -->
 
-<img src=screen.gif alt=drawing height=500px />
-
-
-### Developers and testers:
-- [8055](https://t.me/the8055u)
-- [TIDI](https://t.me/TIDI286)
-- [R4IN80W](https://t.me/TierOhneNation)
-- [DPROSAN](https://t.me/dprosan)
-- [G_Alex](https://t.me/Mi_G_alex)
+<!-- <img src=screen.gif alt=drawing height=500px /> -->
 
 
-[If you find bug, please create issues](https://github.com/c3r5b8/Telegram-Monet/issues/new)
+<!-- ### Developers and testers:
+- [the_dise](https://t.me/the_dise)
+ -->
+
+[This is a fork of this project](https://github.com/c3r5b8/Telegram-Monet/issues/new)
 
 
-### Translators
+<!-- ### Translators
 - [Arabic](https://t.me/MMETMA2)
 - [Bengali India](https://t.me/pubglover0_01)
 - [German](https://t.me/lelehier)
@@ -44,3 +40,4 @@
 - [Ukrainian](https://t.me/the_dise)
 - [Uzbek](https://t.me/FerNikoMF)
 - [Vietnamese](https://t.me/masarou)
+ -->

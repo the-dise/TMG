@@ -33,13 +33,14 @@
                 </Button>
 
                 <TextView
-                    android:layout_gravity="center"
-                    android:layout_margin="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:fontFamily="@font/google_sans_medium"
                     android:text="@string/light_theme"
                     android:textAppearance="?attr/textAppearanceTitleLarge"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
 
 
             </LinearLayout>
@@ -56,8 +57,9 @@
                 android:id="@+id/setup_light_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="@string/setup_card_button" />
+                android:layout_gravity="end"
+                android:text="@string/setup_card_button"
+                style="@style/Widget.Material3.Button.OutlinedButton"/>
         </LinearLayout>
 
 

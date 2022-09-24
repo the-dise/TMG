@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ASMSmaliIdeaPluginConfiguration">
+    <asm skipDebug="true" skipFrames="true" skipCode="false" expandFrames="false" />
+    <groovy codeStyle="LEGACY" />
+  </component>
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GitHub/Telegram-Monet-main/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2115" />
+        <entry key="..\:/GitHub/Telegram-Monet-main/app/src/main/res/layout/about_card.xml" value="0.25" />
+        <entry key="..\:/GitHub/Telegram-Monet-main/app/src/main/res/layout/dark_card.xml" value="0.25" />
+        <entry key="..\:/GitHub/Telegram-Monet-main/app/src/main/res/layout/light_card.xml" value="0.25" />
+        <entry key="..\:/GitHub/Telegram-Monet-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2115" />
+        <entry key="..\:/GitHub/Telegram-Monet-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />
         <entry key="..\:/Programming/Android/Telegram-Monet/app/src/main/res/drawable/round_dark_mode_24.xml" value="0.2105" />
         <entry key="..\:/Programming/Android/Telegram-Monet/app/src/main/res/drawable/round_light_mode_24.xml" value="0.169" />
         <entry key="..\:/Programming/Android/Telegram-Monet/app/src/main/res/drawable/round_palette_24.xml" value="0.169" />

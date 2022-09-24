@@ -43,6 +43,7 @@
                         android:id="@+id/description_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/google_sans_medium"
                         android:text="@string/about_card_title"
                         android:textAppearance="?attr/textAppearanceTitleLarge"
                         android:textSize="18sp" />
@@ -59,24 +60,31 @@
                 android:text="@string/about_card_description"
                 android:textAppearance="?attr/textAppearanceBodyMedium"
                 android:textColor="?android:attr/textColorSecondary" />
-
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end">
             <Button
                 android:id="@+id/button_tg"
+                style="@style/Widget.Material3.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:text="@string/about_card_telegram" />
+                android:text="Telegram" />
 
-            <Button
-                android:id="@+id/button_github"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="@string/about_card_github" />
-
+                <Button
+                    android:id="@+id/button_github"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/button_tg"
+                    android:text="GitHub" />
+            </RelativeLayout>
         </LinearLayout>
 
 
     </com.google.android.material.card.MaterialCardView>
+
+
 
 </FrameLayout>
