@@ -26,13 +26,15 @@
                 app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
                 app:titleCollapseMode="fade">
 
+
                 <com.google.android.material.appbar.MaterialToolbar
                     android:layout_width="match_parent"
-                    android:hapticFeedbackEnabled="true"
-                    app:layout_collapseParallaxMultiplier="@integer/material_motion_duration_short_2"
                     android:layout_height="?attr/actionBarSize"
+                    android:hapticFeedbackEnabled="true"
                     app:layout_collapseMode="pin"
-                    app:title="@string/toolbar_title" />
+                    app:layout_collapseParallaxMultiplier="@integer/material_motion_duration_short_2"
+                    app:title="@string/toolbar_title"
+                    app:popupTheme="@style/Widget.AppCompat.PopupMenu"/>
 
             </com.google.android.material.appbar.CollapsingToolbarLayout>
 
@@ -47,14 +49,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
-                android:overScrollMode="always"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:overScrollMode="always">
 
-                <include layout="@layout/light_card"/>
+                <include layout="@layout/light_card" />
 
-                <include layout="@layout/dark_card"/>
+                <include layout="@layout/dark_card" />
 
-                <include layout="@layout/about_card"/>
+                <include layout="@layout/settings_card" android:visibility="gone" />
+
+                <include layout="@layout/about_card" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp" />
 
             </LinearLayout>
 
